@@ -6,6 +6,7 @@ html{
 body {
     background-color: lightgrey;
     margin-bottom: 60px;
+    overflow-x: hidden;
 }
 
 header{
@@ -14,16 +15,24 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     padding-bottom: 20px;
-    margin-bottom: 20px;
 }
 
 #header-text{
     font-family: 'Romanesco', cursive;
     font-size: 60px;
     color: burlywood;
-    text-shadow: 3px 2px 3px black;
+    text-shadow: 3px 2px 3px rosybrown;
     text-align: center;
     margin-top: 20px;
+}
+
+#brand-text{
+    font-family: 'Romanesco', cursive;
+    font-size: 35px;
+}
+
+#navbar-text{
+    font-family: 'Raleway', sans-serif;
 }
 
 .footer{
@@ -72,6 +81,20 @@ hr{
     margin-bottom: 20px;
 }
 
-.col-md-4{
-    padding-right: 25px;
+#signinbut{
+    margin-bottom: 20px;
+}
+
+#video{
+    margin-top: 45px;
+}
+
+#registerbut{
+    margin-bottom: 20px;
+}
+
+.card{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
 }

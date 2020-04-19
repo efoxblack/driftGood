@@ -8,6 +8,9 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
     </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+    </style>
     <title>Drift Meetup</title>
 </head>
 <body>
@@ -17,13 +20,40 @@
             <h1 id="header-text">driftGood</h1>
         </header>
     </div>
-        
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: burlywood">
+        <a class="navbar-brand" href="index.html" id="brand-text">driftGood</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html" id="navbar-text">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html" id="navbar-text">Registration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html" id="navbar-text">Sign Up</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="signin.html" id="navbar-text">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <div class="container">
         <div class="row" id="firstRow">
           <div class="col-md-5">
             <h2>Welcome to our website! Here is a bit more about us:</h2>
             <p id="conP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum minima numquam sunt velit quibusdam fugit maxime eveniet eaque nam quasi enim, mollitia aut ipsam? Quos cumque amet hic assumenda magnam.</p>
-            <a href="register.html"><button type="button" class="btn btn-warning">Register for our next meet!</button></a>
+            <a href="register.html"><button type="button" class="btn btn-warning" id="registerbut">Register for our next meet!</button></a>
+            <a href="signup.html"><button type="button" class="btn btn-info" id="signupbut">Sign up for a weekly email!</button></a>
           </div>
           <div class="col-md-5">
             <img src="img/tandem.gif" alt="tandem" width="625" height="100%">
@@ -31,30 +61,28 @@
         </div>
 
         <hr>
-        <div class="row" id="imageRow">
-            <div class="col-md-4">
-                <img src="img/s13.jpg" alt="sliding_s13" width="100%" height="90%">
-            </div>
-            <div class="col-md-4">
-                <img src="img/tandem-lineup.jpg" alt="tandem-lineup" width="100%" height="90%">
-            </div>
-            <div class="col-md-4">
-                <img src="img/outside-hairpin.jpg" alt="touge-drift" width="100%" height="90%">
-            </div>
-        </div>
-
+       
         <div class="row" id="secondRow">
-            <div class="col-md-4">
-                <h4>How to get in contact with us.</h4>
-                <p id="conP">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio a suscipit vero ipsa neque, dolores rerum eius inventore soluta odio fugiat fuga corrupti tenetur ut beatae? Repudiandae delectus tenetur magnam?</p>
+            <div class="card" style="width: 21rem">
+                <img class="card-img-top" src="img/s13.jpg" alt="sliding_s13">
+                <div class="card-body">
+                    <h4 class="card-title">How to get in contact with us.</h4>
+                    <p id="conP">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio a suscipit vero ipsa neque, dolores rerum eius inventore soluta odio fugiat fuga corrupti tenetur ut beatae? Repudiandae delectus tenetur magnam?</p>
+                </div>
             </div>
-            <div class="col-md-4">
-                <h4>Don't have a car? Ask for a ride-along!</h4>
-                <p id="conP">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, odio tenetur! Totam ipsa vel dolorem, harum autem amet necessitatibus quis veniam adipisci quidem aspernatur quas unde sint eius quaerat tenetur.</p>
+            <div class="card" style="width: 21rem">
+                <img class="card-img-top" src="img/tandem-lineup.jpg" alt="tandem-lineup">
+                <div class="card-body">
+                    <h4 class="card-title">Don't have a car? Ask for a ride-along!</h4>
+                    <p id="conP">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, odio tenetur! Totam ipsa vel dolorem, harum autem amet necessitatibus quis veniam adipisci quidem aspernatur quas unde sint eius quaerat tenetur.</p>
+                </div>
             </div>
-            <div class="col-md-4">
-                <h4>Our drift meets are only on weekends!</h4>
-                <p id="conP">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor laboriosam odio fuga nobis soluta molestiae maiores adipisci, nemo, nisi nesciunt iusto optio saepe quidem assumenda mollitia voluptatibus ut similique. Veniam?</p>
+            <div class="card" style="width: 21rem">
+                <img class="card-img-top" src="img/outside-hairpin.jpg" alt="togue" height="39%">
+                <div class="card-body">
+                    <h4 class="card-title">Our drift meets are only on weekends!</h4>
+                    <p id="conP">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor laboriosam odio fuga nobis soluta molestiae maiores adipisci, nemo, nisi nesciunt iusto optio saepe quidem assumenda mollitia voluptatibus ut similique. Veniam?</p>
+                </div>
             </div>
         </div>
     </div>
