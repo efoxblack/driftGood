@@ -85,8 +85,12 @@ hr{
     margin-bottom: 20px;
 }
 
-#video{
-    margin-top: 45px;
+#register-video{
+    margin-top: 65px;
+}
+
+#signup-video{
+    margin-top: 60px;
 }
 
 #registerbut{
@@ -97,4 +101,8 @@ hr{
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 40px;
+}
+
+#form-row{
+    margin-top: 15px;
 }
